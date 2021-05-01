@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".surfDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:editable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="A C T I V E    I N G R E D I E N T S"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/dark_purple"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/tv48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textMultiLine"
+                    android:padding="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/grey"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:editable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="A P P R O P R I A T E    A G E"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/dark_purple"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/tv50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/grey"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:editable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="S I D E    E F F E C T S"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/dark_purple"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/tv52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textMultiLine"
+                    android:padding="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/grey"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:editable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="I N T E R A C T I O N S"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/dark_purple"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/tv54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textMultiLine"
+                    android:padding="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/grey"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:editable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="C O N T R A I N D I C A T I O N S"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/dark_purple"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/tv56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textMultiLine"
+                    android:padding="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/grey"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:editable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="A P P L I C A T I O N"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/dark_purple"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/tv58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textMultiLine"
+                    android:padding="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/grey"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:editable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="N O T E S"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/dark_purple"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/tv60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textMultiLine"
+                    android:padding="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/grey"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:editable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="P R E G N A N C Y    S A F E T Y"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/dark_purple"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/tv62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:padding="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/grey"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:editable="false"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="P R E G N A N C Y    S A F E T Y    L E V E L S"
+                android:textColor="@color/dark_grey"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/grey"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/tv64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textMultiLine"
+                    android:padding="5dp"
+                    android:text="@string/pregnancy_safety_levels"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

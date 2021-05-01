@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OTC Info</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pregnancy_safety_levels">A\nAcceptable. Studies in pregnant women show no risks.
+    \nB\nMay be acceptable. Either animals or humans were under test, and conducted tests show no risks.
+    \nC\nUse with caution if benefits outweigh risks. Humans were not under test. Animals may were tested.
+    \nD\nUse in extreme emergencies when alternatives are not available. There is positive evidence of risks on
+    humans.\nX\nNever use in pregnancy. There is positive evidence of risks on humans. Risks outweigh benefits,
+    and safer alternatives are available.</string>
+</resources>
