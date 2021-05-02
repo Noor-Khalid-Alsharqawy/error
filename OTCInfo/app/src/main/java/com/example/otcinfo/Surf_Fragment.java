@@ -22,6 +22,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 
 public class Surf_Fragment extends Fragment {
 
@@ -59,9 +60,15 @@ public class Surf_Fragment extends Fragment {
                 //positive case
                 for(DataSnapshot md: snapshot.getChildren()){
                     //String id = md.getKey();
-                    drug dd= (drug) md.getValue();//coverts from json to drug
+                    HashMap<String,String> dd= (HashMap<String, String>) md.getValue();//coverts from json to drug
+                    String trade= dd.get("tradaName"); String active= dd.get("activeIngredients");
+                    String use= dd.get("uses"); String age= dd.get("age"); String app= dd.get("application");
+                    String inter= dd.get("interactions");  String cont= dd.get("contraindications");
+                    char preg= dd.get("pregnancySafety").charAt(0); String side= dd.get("sideEffects");
+                    String notes= dd.get("notes");
                     //drug dd= md.child(id).getValue(drug.class)
-                    surf_ArrayList.add(dd);
+                    drug ddd= new drug(trade,active,use,age,side,inter,cont,preg,app,notes);
+                    surf_ArrayList.add(ddd);
                     sf.notifyDataSetChanged();
                 }
             }
